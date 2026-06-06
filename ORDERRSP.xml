@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document-OrderResponse>
+
+    <OrderResponse-Header>
+        <OrderResponseNumber>ORSP-2026-0001</OrderResponseNumber>
+        <OrderResponseDate>2026-06-06</OrderResponseDate>
+        <ExpectedDeliveryDate>2026-06-15</ExpectedDeliveryDate>
+        <ExpectedDeliveryTime>10:00</ExpectedDeliveryTime>
+
+        <OrderNumber>ORD-2026-0001</OrderNumber>
+        <OrderDate>2026-06-06</OrderDate>
+
+        <MessageType>OR</MessageType>
+        <ResponseType>29</ResponseType>
+        <Remarks>Zamowienie zaakceptowane bez zmian.</Remarks>
+        <Currency>PLN</Currency>
+    </OrderResponse-Header>
+
+    <OrderResponse-Parties>
+
+        <Buyer>
+            <ILN>5901234567890</ILN>
+            <TaxID>1234567890</TaxID>
+            <Name>Jakub Lapczynski</Name>
+            <StreetAndNumber>Akademicka 10</StreetAndNumber>
+            <CityName>Warszawa</CityName>
+            <PostalCode>00-001</PostalCode>
+            <Country>PL</Country>
+        </Buyer>
+
+        <Invoicee>
+            <ILN>5901234567890</ILN>
+            <TaxID>1234567890</TaxID>
+            <Name>Jakub Lapczynski</Name>
+            <StreetAndNumber>Akademicka 10</StreetAndNumber>
+            <CityName>Warszawa</CityName>
+            <PostalCode>00-001</PostalCode>
+            <Country>PL</Country>
+        </Invoicee>
+
+        <Seller>
+            <ILN>5909876543210</ILN>
+            <TaxID>9876543210</TaxID>
+            <CodeByBuyer>TECH001</CodeByBuyer>
+            <Name>TechNova Sp. z o.o.</Name>
+            <StreetAndNumber>Przemyslowa 25</StreetAndNumber>
+            <CityName>Krakow</CityName>
+            <PostalCode>30-001</PostalCode>
+            <Country>PL</Country>
+        </Seller>
+
+        <DeliveryPoint>
+            <ILN>5901234567890</ILN>
+            <Name>Jakub Lapczynski</Name>
+            <StreetAndNumber>Akademicka 10</StreetAndNumber>
+            <CityName>Warszawa</CityName>
+            <PostalCode>00-001</PostalCode>
+            <Country>PL</Country>
+        </DeliveryPoint>
+
+    </OrderResponse-Parties>
+
+    <OrderResponse-Lines>
+
+        <Line>
+            <Line-Item>
+
+                <LineNumber>1</LineNumber>
+                <OrderLineNumber>1</OrderLineNumber>
+
+                <EAN>5901111111111</EAN>
+
+                <LineItemStatus>5</LineItemStatus>
+
+                <SupplierItemCode>LAP-001</SupplierItemCode>
+                <BuyerItemCode>PROD-001</BuyerItemCode>
+
+                <ItemDescription>Laptop Student Pro 15</ItemDescription>
+
+                <OrderedQuantity>5.000</OrderedQuantity>
+                <QuantityToBeDelivered>5.000</QuantityToBeDelivered>
+
+                <UnitOfMeasure>PCE</UnitOfMeasure>
+
+                <OrderedUnitNetPrice>3500.00</OrderedUnitNetPrice>
+                <OrderCurrency>PLN</OrderCurrency>
+
+                <AvailableStock>10.000</AvailableStock>
+
+                <TaxRate>23.00</TaxRate>
+                <TaxCategoryCode>S</TaxCategoryCode>
+
+                <ExpectedDeliveryDate>2026-06-15</ExpectedDeliveryDate>
+                <ExpectedDeliveryTime>10:00</ExpectedDeliveryTime>
+
+            </Line-Item>
+        </Line>
+
+    </OrderResponse-Lines>
+
+    <OrderResponse-Summary>
+        <TotalLines>1</TotalLines>
+        <TotalOrderedAmount>5.000</TotalOrderedAmount>
+    </OrderResponse-Summary>
+
+</Document-OrderResponse>
